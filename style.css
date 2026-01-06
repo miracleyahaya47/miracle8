@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.hero {
+    background-image: url("img/student1.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: white;
+}
+
+.text{
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
+    left: 50%;
+    right: 50%;
+    background-color: rgba(12, 2, 2, 0.9);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+}
+
+.text:hover {
+    color: #333333;
+}
+
+.nav1 ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 14px;
+    background:#333333;
+}
+
+.nav1 li {
+    display: inline
+}
+
+.nav1 a {
+   text-decoration: none;
+   color:#ffff;
+}
+
+.nav1 a:hover {
+    color:darkslategray
+}
+
+.rules {
+    background: rgba(255, 255, 255, 0.95);
+    border-left: 6px solid #1e90ff;
+    padding: 20px 25px;
+    margin: 40px auto;
+    max-width: 900px;
+    border-radius: 8px;
+}
+
+.rules h2 {
+    margin-bottom: 12px;
+    font-size: 20px;
+    color: #1e90ff;
+}
+
+.rules ul {
+    margin: 0;
+    padding-left: 18px;
+}
+
+.rules li {
+    margin-bottom: 8px;
+    font-size: 15px;
+    color: #333;
+}
+
+.results {
+    background: rgba(255, 255, 255, 0.95);
+    padding: 25px;
+    border-radius: 10px;
+    max-width: 900px;
+    margin: 40px auto;
+}
+
+.results h2 {
+    margin-bottom: 15px;
+    font-size: 22px;
+    color: #222;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: #1e90ff;
+    color: white;
+    padding: 12px;
+    font-weight: 600;
+}
+
+td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+    font-size: 15px;
+}
+
+tr:hover {
+    background-color: #f5f9ff;
+}
+
+footer {
+    background: #0f172a;
+    /* deep navy */
+    color: #cbd5e1;
+    padding: 30px 20px;
+    text-align: center;
+    margin-top: 60px;
+}
+
+footer p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+footer p:first-child {
+    font-weight: 600;
+    color: #ffffff;
+}
